@@ -872,7 +872,7 @@ def compare_sort():
     
     for size in sizes:
         # สร้างชุดข้อมูลแบบสุ่มในช่วง 0-999
-        data = [random.randint(0, 999) for _ in range(size)]
+        data = [random.randint(0, 9999) for _ in range(size)]
         
         # วัดเวลา bubble Sort
         start_time = time.time()
@@ -976,4 +976,4 @@ compare_sort()
 
 ```html
 เขียนสรุปผลการทดลองที่นี่
-``` 
+```     
